@@ -8,7 +8,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/wuzieryun/springcloud-config #GitHub上面的git仓库名字
+          uri: https://github.com/wuzieryun/springcloud-config.git #GitHub上面的git仓库名字
 #          uri: git@github.com:zzyybs/springcloud-config.git
           ####搜索目录
           search-paths:

@@ -33,7 +33,7 @@ public class RateLimitController
 
 
 
-    @GetMapping("/rateLimit/customBlockHandle")
+    @GetMapping("/rateLimit/customBlockHandler")
     @SentinelResource(value = "customBlockHandler",blockHandlerClass = CustomerBlockHandler.class, blockHandler = "handlerException2")
     public CommonResult customBlockHandler()
     {
